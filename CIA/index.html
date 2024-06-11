@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+    .container {
+        width: 1440px;
+        height: 120px;
+    }
+
+    .img1 {
+        width: 253px;
+        height: 160px;
+        flex-shrink: 0;
+        position: absolute;
+        left: 84px;
+        top: -20px;
+    }
+
+    .navBar {
+        font-family: Inter;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        position: absolute;
+        left: 370px;
+        top: 52px;
+    }
+
+    .navBar li {
+        list-style: none;
+    }
+
+    .navBar li a {
+        font-family: 'Ubuntu', sans-serif;
+        padding: 15px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .navBar li a:hover {
+        color: blue;
+    }
+
+    .box1 {
+        position: relative;
+        top: 21px;
+        float: right;
+        margin-right: 36px;
+    }
+
+    .box1 img {
+        padding: 9px;
+        cursor: pointer;
+    }
+
+    .box1 img:hover {
+        opacity: 60%;
+    }
+
+    .m1 {
+        color: #000;
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    .m2 {
+        color: #696969;
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+    }
+
+    .container2 {
+        position: relative;
+        top: 10px;
+        display: grid;
+        grid-template-columns: repeat(5, auto);
+        grid-gap: 2rem;
+        cursor: pointer;
+    }
+
+    .container2 p {
+        position: relative;
+        left: 30px;
+        top: -10px;
+        color: #000;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .container2 p s {
+        color: #696969;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .container3 {
+        position: absolute;
+        top: 705px;
+        width: 1440px;
+        height: 320px;
+        background: rgba(0, 0, 0, 0.84);
+    }
+
+    .box3 {
+        position: relative;
+        left: 140px;
+        width: 423px;
+        top: 35px;
+    }
+
+    .box3 p {
+        color: #FFF;
+        font-size: 22px;
+        font-weight: 500;
+        font-family: 'Ubuntu', sans-serif;
+        width: 423px;
+        height: 17px;
+    }
+
+    .box3 #i1 {
+        color: white;
+        position: relative;
+        top: 77px;
+    }
+
+    .p4 {
+        position: relative;
+        top: 32px;
+        left: 25px;
+    }
+
+    .box3 #i2 {
+        color: white;
+        position: relative;
+        top: 31px
+    }
+
+    .box3 #i3 {
+        color: white;
+        position: relative;
+        top: -20px;
+    }
+
+    .box3 #i4 {
+        color: white;
+        position: relative;
+        top: -20px;
+        left: 10px;
+    }
+
+    .p5 {
+        position: relative;
+        top: -14px;
+        left: 25px;
+    }
+
+    .box4 {
+        position: relative;
+        left: 650px;
+        width: 160px;
+        top: -251px;
+    }
+
+    .box4 p {
+        color: #FFF;
+        font-size: 22px;
+        font-weight: 500;
+        font-family: 'Ubuntu', sans-serif;
+        width: 423px;
+        height: 17px;
+    }
+
+    .box4 li {
+        list-style: none;
+    }
+
+    .box4 li a {
+        padding: 3px;
+        width: 175px;
+        display: block;
+        text-decoration: none;
+        color: #FFF;
+        font-size: 22px;
+        font-weight: 200;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    .box5 {
+        position: relative;
+        left: 960px;
+        top: -473px;
+    }
+
+    .box5 p {
+        color: #FFF;
+        font-size: 22px;
+        font-weight: 500;
+        font-family: 'Ubuntu', sans-serif;
+        width: 423px;
+        height: 17px;
+    }
+
+    .box5 input {
+        color: white;
+        font-size: 20px;
+        margin-top: 8px;
+        padding-left: 21px;
+        width: 320px;
+        height: 41px;
+        border-radius: 10px;
+        background: #696969;
+    }
+
+    .box5 input::placeholder {
+        color: white;
+        font-size: 20px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    .box5 button {
+        width: 349px;
+        margin-top: 10px;
+        padding: 16px 97px;
+        justify-content: center;
+        align-items: center;
+        background: #06F;
+        font-family: 'Ubuntu', sans-serif;
+        color: #FFF;
+        text-align: center;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+    }
+
+    .box5 button:hover {
+        cursor: pointer;
+        opacity: 60%;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <a href="index.html"><img class="img1" src="Walk_Along-1-removebg-preview.png" alt=""></a>
+        <nav class="navBar">
+            <li>
+                <a href="index.html">Men</a>
+                <a href="">Women</a>
+                <a href="">New Arrivals</a>
+                <a href="">My Orders</a>
+                <a href="">Corporate Orders</a>
+                <a href="">Blogs</a>
+            </li>
+        </nav>
+        <div class="box1">
+            <a href="1.html"><img src="login-removebg-preview 1.png" alt=""></a>
+            <a href=""><img src="wishlist-icon-19-removebg-preview 1.png" alt=""></a>
+            <a href=""><img src="search 1.png" alt=""></a>
+            <a href=""><img src="cart 1.png" alt=""></a>
+        </div>
+    </div>
+    <p class="m1">Men training & sports</p>
+    <p class="m2">Curated for tough training sessions</p>
+    <div class="container2">
+        <div class="im1">
+            <a href="4-1.html"><img src="11 1.png" alt=""></a>
+            <p>$ 16.00 <s>$18.00</s></p>
+        </div>
+        <div class="im2">
+            <a href="4.html"><img src="12 1.png" alt=""></a>
+            <p>$ 8.76 <s>$15.84</s></p>
+        </div>
+        <div class="im3">
+            <a href="4-2.html"><img src="13 1.png" alt=""></a>
+            <p>$ 10.23 <s>$15.84</s></p>
+        </div>
+        <div class="im4">
+            <img src="14 1.png" alt="">
+            <p>$ 10.23 <s>$15.84</s></p>
+        </div>
+        <div class="im5">
+            <img src="15 1.png" alt="">
+            <p>$ 8.41 <s>$15.23</s></p>
+        </div>
+    </div>
+    <div class="container3">
+        <div class="box3">
+            <p class="p3">About Us</p>
+            <p>Walk Along is one of the fastest growing and the most loved footwear brands in India. Check out our
+                incredible range and become an member today</p>
+
+            <i class="fa fa-envelope" id="i1"></i>
+            <p class="p4">info@walkalongwears.com</p>
+            <i class="fa fa-phone" id="i2"></i>
+            <p class="p5">7612653412</p>
+            <i class="fa fa-facebook" id="i3"></i>
+            <i class="fa fa-instagram" id="i4"></i>
+        </div>
+        <div class="box4">
+            <p class="p6">Quick Links</p>
+            <li>
+                <a href="">Privacy Policy</a>
+                <a href="">Refund Policy</a>
+                <a href="">Shipping Policy</a>
+                <a href="">Terms of Services</a>
+                <a href="">Contact Us</a>
+            </li>
+        </div>
+        <div class="box5">
+            <p>Subscribe to our newsletter</p>
+            <input type="text" placeholder="First Name">
+            <br>
+            <input type="email" placeholder="Your email">
+            <br>
+            <button><i class="fa fa-envelope" id="i1"></i>&nbsp; Subscribe</button>
+        </div>
+    </div>
+</body>
+
+</html>

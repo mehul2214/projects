@@ -1,0 +1,285 @@
+.container {
+    width: 1440px;
+    height: 120px;
+}
+
+.img1 {
+    width: 253px;
+    height: 160px;
+    flex-shrink: 0;
+    position: absolute;
+    left: 84px;
+    top: -20px;
+}
+
+.navBar {
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    left: 370px;
+    top: 52px;
+}
+
+.navBar li {
+    list-style: none;
+}
+
+.navBar li a {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.navBar li a:hover {
+    color: blue;
+}
+
+.box1 {
+    position: relative;
+    top: 21px;
+    float: right;
+    margin-right: 36px;
+}
+
+.box1 img {
+    padding: 9px;
+    cursor: pointer;
+}
+
+.box1 img:hover {
+    opacity: 60%;
+}
+
+.container2 {
+    position: relative;
+    top: -65px;
+    width: 1440px;
+    height: 585px;
+}
+
+h1 {
+    position: relative;
+    left: 520px;
+    font-size: 50px;
+}
+
+.box2 {
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    left: 516px;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.box2 input {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    width: 100px;
+    padding: 15px 250px 15px 30px;
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.00);
+    background: rgba(187, 187, 187, 0.30);
+}
+
+.box2 button {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    width: 400px;
+    padding: 20px 0px;
+    margin-top: 15px;
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.00);
+    background: #06F;
+}
+
+.box2 button:hover {
+    cursor: pointer;
+    opacity: 60%;
+}
+
+.p1 {
+    position: relative;
+    top: -16px;
+    left: 600px;
+    font-size: 24px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+}
+.p1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.p1 a:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.p2 {
+    position: relative;
+    top: -35px;
+    left: 610px;
+    font-size: 24px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+}
+
+.p2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.p2 a:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.container3 {
+    position: absolute;
+    top: 705px;
+    width: 1440px;
+    height: 320px;
+    background: rgba(0, 0, 0, 0.84);
+}
+
+.box3 {
+    position: relative;
+    left: 140px;
+    width: 423px;
+    top: 35px;
+}
+
+.box3 p {
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+    width: 423px;
+    height: 17px;
+}
+
+.box3 #i1 {
+    color: white;
+    position: relative;
+    top: 77px;
+}
+
+.p4 {
+    position: relative;
+    top: 32px;
+    left: 25px;
+}
+
+.box3 #i2 {
+    color: white;
+    position: relative;
+    top: 31px
+}
+
+.box3 #i3 {
+    color: white;
+    position: relative;
+    top: -20px;
+}
+
+.box3 #i4 {
+    color: white;
+    position: relative;
+    top: -20px;
+    left: 10px;
+}
+
+.p5 {
+    position: relative;
+    top: -14px;
+    left: 25px;
+}
+
+.box4 {
+    position: relative;
+    left: 650px;
+    width: 160px;
+    top: -251px;
+}
+
+.box4 p {
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+    width: 423px;
+    height: 17px;
+}
+
+.box4 li {
+    list-style: none;
+}
+
+.box4 li a {
+    padding: 3px;
+    width: 175px;
+    display: block;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 200;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.box5 {
+    position: relative;
+    left: 960px;
+    top: -473px;
+}
+
+.box5 p {
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+    width: 423px;
+    height: 17px;
+}
+
+.box5 input {
+    color: white;
+    font-size: 20px;
+    margin-top: 8px;
+    padding-left: 21px;
+    width: 320px;
+    height: 41px;
+    border-radius: 10px;
+    background: #696969;
+}
+
+.box5 input::placeholder {
+    color: white;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.box5 button {
+    width: 349px;
+    margin-top: 10px;
+    padding: 16px 97px;
+    justify-content: center;
+    align-items: center;
+    background: #06F;
+    font-family: 'Ubuntu', sans-serif;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.box5 button:hover {
+    cursor: pointer;
+    opacity: 60%;
+}

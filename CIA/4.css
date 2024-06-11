@@ -1,0 +1,258 @@
+.container {
+    position: absolute;
+    top: 136px;
+    width: 1440px;
+    height: 704px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #315CF5;
+}
+
+.container2 {
+    background-color: white;
+    left: 102px;
+    position: relative;
+    width: 546px;
+    height: 992px;
+    flex-shrink: 0;
+    border-radius: 21px;
+    border: 1px solid #000;
+}
+
+.box {
+    position: absolute;
+    width: 546px;
+    height: 103px;
+    flex-shrink: 0;
+    border-top-left-radius: 21px;
+    border-top-right-radius: 21px;
+    background: #315CF5;
+}
+.box a{
+    text-decoration: none;
+}
+
+.p1 {
+    left: 26px;
+    top: -10px;
+    position: relative;
+    color: #FFF;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.p2 {
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 40px;
+    right: 15px;
+    color: white;
+    background-color: #315CF5;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.box2 {
+    width: 475px;
+    height: 97px;
+    top: 105px;
+    position: absolute;
+    height: 97px;
+    flex-shrink: 0;
+    background: #FFF;
+}
+
+.box2 p {
+    position: absolute;
+    left: 64px;
+    color: #000;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.box2 p span {
+    color: #315CF5;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.box3 {
+    position: absolute;
+    width: 546px;
+    height: 397px;
+    flex-shrink: 0;
+    background: #F8F4F4;
+    top: 200px;
+}
+
+.img1 {
+    position: absolute;
+    left: 35px;
+    top: 21px;
+}
+
+.p3 {
+    position: absolute;
+    left: 97px;
+    top: 10px;
+    color: #000;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.box3 input {
+    font-size: 20px;
+    position: relative;
+    left: 23px;
+    top: 77px;
+    margin: 10px;
+    border-radius: 11px;
+    border: 1px solid #8B8787;
+    padding: 22px 203px 21px 28px;
+}
+
+.box3 input::placeholder {
+    color: #8B8787;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.img2 {
+    position: absolute;
+    left: 35px;
+    top: 290px;
+}
+
+.p4 {
+    position: absolute;
+    left: 100px;
+    top: 268px;
+    color: #000;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.box4 {
+    position: relative;
+    top: 823px;
+    background: #F8F4F4;
+    width: 546px;
+    height: 120px;
+    border-bottom-left-radius: 21px;
+    border-bottom-right-radius: 21px;
+}
+
+.p5 {
+    position: relative;
+    color: #000;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    top: 45px;
+    left: 60px;
+}
+
+.box4 button {
+    position: relative;
+    border: none;
+    top: -40px;
+    left: 265px;
+    border-radius: 17px;
+    width: 230px;
+    margin-top: 10px;
+    padding: 14px;
+    justify-content: center;
+    align-items: center;
+    background: #06F;
+    font-family: 'Ubuntu', sans-serif;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.box4 button:hover {
+    cursor: pointer;
+    opacity: 60%;
+}
+
+.p6 {
+    position: relative;
+    color: #FFF;
+    top: 48px;
+    right: 258px;
+    float: right;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.img3 {
+    position: relative;
+    left: 693px;
+    top: 145px;
+    width: 127px;
+    height: 105px;
+}
+
+.box5 {
+    position: relative;
+    left: 837px;
+    top: 35px;
+    width: 549px;
+    height: 63px;
+    color: #FFF;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.box5 span {
+    position: relative;
+    left: 65px;
+}
+
+.container hr {
+    position: relative;
+    top: 105px;
+    width: 675px;
+    float: right;
+    right: 65px;
+    border: 2px dashed white;
+}
+
+.p7 {
+    position: relative;
+    top: 130px;
+    left: 700px;
+    color: #FFF;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.p7 span {
+    position: relative;
+    left: 415px;
+}
+
+.p8 {
+    position: relative;
+    top: 365px;
+    float: right;
+    right: 160px;
+    color: #FFF;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 34px;
+    font-style: italic;
+    font-weight: 500;
+}

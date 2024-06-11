@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="1.css">
+    <script src="1.js"></script>
+</head>
+
+
+<body>
+    <div class="container">
+        <a href="5.html"><img class="img1" src="Walk_Along-1-removebg-preview.png" alt=""></a>
+        <nav class="navBar">
+            <li>
+                <a href="5.html">Men</a>
+                <a href="">Women</a>
+                <a href="">New Arrivals</a>
+                <a href="">My Orders</a>
+                <a href="">Corporate Orders</a>
+                <a href="">Blogs</a>
+            </li>
+        </nav>
+        <div class="box1">
+            <a href="1.html"><img src="login-removebg-preview 1.png" alt=""></a>
+            <a href=""><img src="wishlist-icon-19-removebg-preview 1.png" alt=""></a>
+            <a href=""><img src="search 1.png" alt=""></a>
+            <a href=""><img src="cart 1.png" alt=""></a>
+        </div>
+    </div>
+    <form action="login.php" method="post">
+        <div class="container2">
+            <h1>Login</h1>
+            <div class="box2">
+                <p>Email*</p>
+                <input type="email" name="username" id="username" placeholder="Email">
+                <p>Password*</p>
+                <input type="password" name="password" id="password" placeholder="Password">
+                <br>
+                <button id="submit" onclick="validate()">SIGN IN</button>
+                <!-- <span><b class="note">Note : </b>For this demo use following username and password. <br/><b class="valid">User Name : Formget<br/>Password : formget#123</b></span> -->
+            </div>
+            <p class="p1"><a href="6.html">Forgot your password?</a></p>
+            <p class="p2"><a href="2.html">Create New Account</a></p>
+        </div>
+    </form>
+    <div class="container3">
+        <div class="box3">
+            <p class="p3">About Us</p>
+            <p>Walk Along is one of the fastest growing and the most loved footwear brands in India. Check out our
+                incredible range and become an member today</p>
+
+            <i class="fa fa-envelope" id="i1"></i>
+            <p class="p4">info@walkalongwears.com</p>
+            <i class="fa fa-phone" id="i2"></i>
+            <p class="p5">7612653412</p>
+            <i class="fa fa-facebook" id="i3"></i>
+            <i class="fa fa-instagram" id="i4"></i>
+        </div>
+        <div class="box4">
+            <p class="p6">Quick Links</p>
+            <li>
+                <a href="">Privacy Policy</a>
+                <a href="">Refund Policy</a>
+                <a href="">Shipping Policy</a>
+                <a href="">Terms of Services</a>
+                <a href="">Contact Us</a>
+            </li>
+        </div>
+        <div class="box5">
+            <p>Subscribe to our newsletter</p>
+            <input type="text" placeholder="First Name">
+            <br>
+            <input type="email" placeholder="Your email">
+            <br>
+            <button><i class="fa fa-envelope" id="i1"></i>&nbsp; Subscribe</button>
+        </div>
+    </div>
+</body>
+
+</html>
